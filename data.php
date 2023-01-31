@@ -1,0 +1,5 @@
+<?php
+
+$projetName = "Test BIA";
+
+?>
