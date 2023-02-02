@@ -50,6 +50,9 @@ include("../data.php");
                 document.getElementById(k + 1).style.animation = "fadeIn 1s forwards";
             }
             document.getElementById(k).style.animation = "fadeIn 1s forwards";
+            // scroll on page
+            let element = document.getElementById(k);
+            element.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
         }
     }
     function displayImage(id) {

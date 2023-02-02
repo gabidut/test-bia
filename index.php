@@ -1,6 +1,8 @@
 <?php
 
 include("data.php");
+include("./settings/cookies/setupcookies.php");
+setCookies();
 
 ?>
 
@@ -13,6 +15,7 @@ include("data.php");
         <?= $projetName ?>
     </title>
     <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/warning.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -33,14 +36,10 @@ include("data.php");
 </header>
 
 <body>
-
     <style>
         body {
             font-family: 'Roboto', sans-serif;
             background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             height: 100vh;
         }
     </style>

@@ -43,7 +43,7 @@ include("../data.php");
         <h1>Utilisation des cookies</h1>
         <p>Des cookies sont utilisés dans ce projet uniquement à des fins de sauvegarde des progression des sujets. Aucun usage publicitaire n'est effectué.</p>
         <p>Cependant si vous souhaitez les désactiver vous pouver cliquer ici :</p>
-        <button onclick="location.href = '../disablecookies.php'">Désactiver les cookies</button>
+        <button onclick="location.href = '../settings/cookies/disablecookie.php'">Désactiver les cookies</button>
     </main>
 
 
