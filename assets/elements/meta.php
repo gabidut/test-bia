@@ -1,5 +1,5 @@
 <?php
-    require '../../data.php';
+    require (__DIR__ . "/../../data.php");
 
     echo "<meta content='" . $projetName . "' property='og:title' />";
     echo "<meta content='Projet de questionnaire sur le BIA.' property='og:description' />";
