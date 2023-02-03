@@ -1,5 +1,5 @@
 * {
-    --navbar-color: linear-gradient(280deg, rgb(22, 49, 82) 0%, rgb(30, 36, 72) 100%);
+    --navbar-color: linear-gradient(280deg, #173152 0%, rgb(30, 36, 72) 100%);
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 

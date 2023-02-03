@@ -8,6 +8,7 @@ include("../data.php");
 
 <head>
     <meta charset="utf-8">
+    <?php include("../assets/elements/meta.php"); ?>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Test BIA - Sujets</title>
     <meta name="copyright" content="Copyright 1999-2021. Plesk International GmbH. All rights reserved.">
@@ -86,8 +87,6 @@ include("../data.php");
         background-repeat: repeat-x;
         padding-left: 10%;
     }
-
-
 
     .sujets-news {
         border: #ecffea 2px solid;

@@ -14,6 +14,7 @@ setCookies();
     <title>
         <?= $projetName ?>
     </title>
+    <?php include("../assets/elements/meta.php"); ?>
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/warning.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
